@@ -113,7 +113,7 @@ textarea:focus:-ms-input-placeholder {
 
 .header .top-menu ul li a {
 	color: rgba(255, 255, 255, 0.85);
-	background: #31313a;
+	background: none;
 }
 
 .header .top-menu ul li a:before {
@@ -172,12 +172,12 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .card-inner {
-	background: #31313a;
+	background: none;
 }
 
 .card-inner:before,
 .card-inner:after {
-	background: #31313a;
+	background: none;
 }
 
 .content .title {
@@ -326,4 +326,3 @@ textarea:focus:-ms-input-placeholder {
 .bg-bubbles li {
 	background-color: rgba(255, 255, 255, 0.02);
 }
-
