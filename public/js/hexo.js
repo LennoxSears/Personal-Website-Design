@@ -2,28 +2,28 @@
 $(document).ready(function() {
 	var songs = [
 		{
-			"title": "Misses",
-			"artist": "Girls in Hawaii",
-			"cover": "./images/cover.png",
+			"title": "Jeo's",
+			"artist": "Elyonbeats",
+			"cover": "./images/cover/jeo.jpg",
 			"num": "0",
-			"darkColor": "#3A4E55",
-			"lightColor": "#F2F2F2"
+			"darkColor": "#3c3c3c",
+			"lightColor": "#d1d2d3"
 		},
 		{
-			"title": "Walk Away From The Sun",
-			"artist": "Seether",
-			"cover": "./images/cover.png",
+			"title": "一生独一",
+			"artist": "阮言Ruany",
+			"cover": "./images/cover/oneLife.png",
 			"num": "1",
-			"darkColor": "#4B3A40",
-			"lightColor": "#E0D9C6"
+			"darkColor": "#9397be",
+			"lightColor": "#e2e2e2"
 		},
 		{
-			"title": "The Fifth Guardian, Interlude",
-			"artist": "Epica",
-			"cover": "./images/cover.png",
+			"title": "Island",
+			"artist": "Nujabs",
+			"cover": "./images/cover/island.jpg",
 			"num": "2",
-			"darkColor": "#231F16",
-			"lightColor": "#FFF8E8"
+			"darkColor": "#cb4b89",
+			"lightColor": "#f7f1e5"
 		}
 	];
 
