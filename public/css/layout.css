@@ -21,7 +21,7 @@
 .header {
 	position: absolute;
 	left: 440px;
-	top: 110px;
+	top: 104px;
 	width: 72px;
 	z-index: 100;
 	text-align: center;
@@ -31,6 +31,7 @@
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-khtml-border-radius: 4px;
+	border: 0px blue solid;
 }
 
 .header.active {
@@ -428,13 +429,14 @@
 	3. Cards
 */
 .card-inner {
+	border: 0px blue solid;
 	padding: 0;
 	position: absolute;
 	overflow: hidden;
-	left: 120%;
-	top: 120px;
+	left: 112%;
+	top: 104px;
 	width: 120%;
-	height: 570px;
+	height: 362px;
 	background: none;
 	transform-origin: center left;
 	opacity: 0;
@@ -486,7 +488,7 @@
 }
 
 .card-inner .card-wrap {
-	padding: 30px 30px 30px 60px;
+	padding-left: 10px;
 	position: relative;
 	overflow-x: hidden;
 	height: 100%;
@@ -540,8 +542,7 @@
 
 /* content */
 .content {
-	margin: 0 0 60px 0;
-	position: relative;
+	position: absolute;
 }
 
 .content:last-child {
@@ -561,7 +562,7 @@
 .content .title:before {
 	content: '';
 	position: absolute;
-	left: -12px;
+	left: -10px;
 	top: 0;
 	width: 30px;
 	height: 30px;
@@ -593,7 +594,7 @@
 /* 4.1 About */
 .info-list ul li {
 	display: inline-block;
-	width: 48%;
+	width: 80%;
 	line-height: 1.6;
 }
 
@@ -1299,4 +1300,63 @@
 .card-inner.blog-post {
 	-webkit-animation: none;
 	animation: none;
+}
+
+.slimScrollBar {
+      height: 30px !important;
+			opacity: 0.2 !important;
+   }
+
+.slimScrollDiv {
+	height:322px !important;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.card-wrap {
+	height: 322px !important;
+
+}
+
+.inParaIcon {
+	width:16px;
+	height:16px;
+	margin-right:6px;
+	position: relative;
+	top:4px;
+}
+
+.projTitle, .projDes{
+	position: relative;
+	left:30px;
+}
+
+.projTitle {
+	margin-top:20px;
+}
+
+.projClue {
+	position: relative;;
+	left:60px;
+}
+
+.headerIcon {
+	margin: -27px 0 0 -20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	color: #171717;
+	line-height: 40px;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
 }
