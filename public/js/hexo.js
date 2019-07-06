@@ -34,6 +34,8 @@ $(document).ready(function() {
 	var timer = null;
 
 	function init() {
+
+
 		// Chargement de la playlist
 		for (var i=0; i<songs.length; i++) {
 			$("<p>").html(songs[i].title + " &#183; " + songs[i].artist).appendTo($("#playlist"));
@@ -42,7 +44,7 @@ $(document).ready(function() {
 
 		// Chargement de la première musique
 		loadSong(1);
-		pause();
+		//pause();
 		$("#volumeSlider").change();
 
 		// Playlist
@@ -190,7 +192,18 @@ $(document).ready(function() {
 		animateVinyl("50%");
 		if (start !== undefined && audio.currentTime !== start)
 			audio.currentTime = start;
-		audio.play();
+	/////////////////////////////////////autoplay polocy
+			var promise = audio.play();
+
+			if (promise !== undefined) {
+			    promise.then(_ => {
+			        console.log("Autoplay started!");
+			    }).catch(error => {
+			        console.log("Autoplay provented!");
+			    });
+			}
+/////////////////////////////////////////////////////////////
+
 		$("#playPause p").html("&#61;").css({
 			"transform": "rotate(90deg) scale(1,1.5)",
 			"margin": "8px 0 0 18px"
