@@ -51,6 +51,14 @@ body #backgroundGradientTransition {
 body #backgroundGradient {
   background: radial-gradient(#e0d9c6, #4b3a40);
 }
+
+@media (max-width: 1023px) {
+  body #backgroundGradient,
+  body #backgroundGradientTransition {
+    display: none;
+  }
+}
+
 body #player {
   position: absolute;
   top: 50%;
