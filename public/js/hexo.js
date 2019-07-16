@@ -2,20 +2,20 @@
 $(document).ready(function() {
 	var songs = [
 		{
-			"title": "Jeo's",
-			"artist": "Elyonbeats",
-			"cover": "./images/cover/jeo.jpg",
-			"num": "0",
-			"darkColor": "#3c3c3c",
-			"lightColor": "#d1d2d3"
-		},
-		{
 			"title": "一生独一",
 			"artist": "阮言Ruany",
 			"cover": "./images/cover/oneLife.png",
-			"num": "1",
+			"num": "0",
 			"darkColor": "#9397be",
 			"lightColor": "#e2e2e2"
+		},
+		{
+			"title": "Jeo's",
+			"artist": "Elyonbeats",
+			"cover": "./images/cover/jeo.jpg",
+			"num": "1",
+			"darkColor": "#3c3c3c",
+			"lightColor": "#d1d2d3"
 		},
 		{
 			"title": "Island",

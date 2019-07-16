@@ -253,7 +253,6 @@ body #player #buttons #playlistLink::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url("http://bloo.ovh/music-player/img/playlist.png") no-repeat 5px 5px;
   vertical-align: middle;
 }
 body #player #buttons #volume {
@@ -276,7 +275,6 @@ body #player #buttons #volume::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url("http://bloo.ovh/music-player/img/volume.png") no-repeat 5px 4px;
   vertical-align: middle;
 }
 body #player #buttons #volume input[type=checkbox] {
