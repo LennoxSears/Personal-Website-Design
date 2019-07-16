@@ -150,6 +150,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		background: rgba(255,255,255,1);
 	}
 
 	.header .top-menu {
@@ -182,19 +183,6 @@
 		-webkit-border-radius: 0 4px 4px 0;
 		-khtml-border-radius: 0 4px 4px 0;
 	}
-
-	.header .top-menu ul li a:before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 1px;
-		height: 100%;
-		background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-		background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-		background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-	}
-
 }
 
 @media (max-width: 560px) {
@@ -521,6 +509,10 @@
 
 	.card-inner:last-child {
 		margin-bottom: 50px;
+	}
+
+	#resumeWrap {
+		height:980px !important;
 	}
 
 }
@@ -1316,7 +1308,6 @@
 
 .card-wrap {
 	height: 322px !important;
-
 }
 
 .inParaIcon {
