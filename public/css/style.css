@@ -364,7 +364,7 @@ body #player #buttons span {
   width:16px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 56%;
   transform: translate(-50%, -50%);
 }
 
