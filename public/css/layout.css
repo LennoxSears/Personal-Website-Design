@@ -140,7 +140,7 @@
 	color: #2eca7f;
 }
 
-@media (max-width: 1023px) {
+@media 1 {
 	.header {
 		position: fixed;
 		left: 0;
@@ -512,7 +512,7 @@
 	}
 
 	#resumeWrap {
-		height:980px !important;
+		height:1200px !important;
 	}
 
 }

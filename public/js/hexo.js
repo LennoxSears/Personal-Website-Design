@@ -199,7 +199,7 @@ $(document).ready(function() {
 			    promise.then(_ => {
 			        console.log("Autoplay started!");
 			    }).catch(error => {
-			        console.log("Autoplay provented!");
+			        console.log("Autoplay provented! Error: " + error);
 			    });
 			}
 /////////////////////////////////////////////////////////////
