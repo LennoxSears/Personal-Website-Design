@@ -140,7 +140,7 @@
 	color: #2eca7f;
 }
 
-@media 1 {
+@media (max-width: 1023px) {
 	.header {
 		position: fixed;
 		left: 0;
