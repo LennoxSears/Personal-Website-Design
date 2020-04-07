@@ -1,8 +1,8 @@
 ## Project title
-Lennox's personnel website
+Lennox's personal website
 
 ## Motivation
-Its a personnel website of myself(as a designer and programmer)
+Its a personal website of myself(as a designer and programmer)
 
 ## Screenshots
 ![Screenshots](./img/personnelWeb-min.gif)
